@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rahul.blx">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo_"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_logo_"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BLX">
+
+        <activity android:name=".Activities.MyNetworkActivity" />
+        <activity android:name=".Activities.No_Discounts" />
+        <activity android:name=".Activities.Discount" />
+        <activity android:name=".Activities.maps_and_location" />
+        <activity android:name=".Activities.Edit_Profile" />
+        <activity android:name=".Activities.MyNetworkSecondActivity" />
+        <activity android:name=".Activities.LocationActivity" />
+        <activity android:name=".Activities.EditProfileActivity" />
+        <activity android:name=".Activities.Enter_your_email" />
+        <activity android:name=".Activities.Verify_your_phone" />
+        <activity android:name=".Activities.CommercialVehiclesSparesActivity" />
+        <activity android:name=".Activities.PhoneDetails_TabletActivity" />
+        <activity android:name=".Activities.MobilePhoneDetailsActivity" />
+        <activity android:name=".Activities.MobileDetailesActivity" />
+        <activity
+            android:name=".Activities.MobileActivity"
+            android:label="@string/title_activity_mobile"
+            android:theme="@style/Theme.BLX.NoActionBar" />
+        <activity android:name=".Activities.Invoices" />
+        <activity android:name=".Activities.Help_and_Support" />
+        <activity android:name=".Activities.Privacy" />
+        <activity android:name=".Activities.Google_Login" />
+        <activity android:name=".Activities.Settings" />
+        <activity android:name=".Activities.PhoneDetails_AccessoriesActivity" />
+        <activity android:name=".Activities.ItemDetails" />
+        <activity android:name=".Activities.Categories" />
+        <activity android:name=".Activities.BrowseCategoryDisplayer" />
+        <activity android:name=".Activities.LocationSearchActivity" />
+        <activity android:name=".Activities.NamePageActivity" />
+        <activity android:name=".Activities.Buy_packages" />
+        <activity android:name=".Activities.Invoices_and_billing" />
+        <activity android:name=".Activities.confirmation_code" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.ProductDetailsActivity" />
+        <activity android:name=".Activities.PhoneDetails" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.MyOrdersActivity" />
+        <activity android:name=".Activities.Password" />
+
+        <activity android:name=".Activities.Team_Ivory" />
+        <activity android:name=".Activities.Welcome_Splash_Screen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
